@@ -1,8 +1,8 @@
-# Logistics Data Processing with Kafka, MongoDB, and Python
+# Logistics Data Processing with Confluent, Kafka, MongoDB, Python and Docker
 
 ## Overview
 
-This project aims to develop a Python-based application for processing logistics data using Kafka and MongoDB. The application consists of a Kafka producer and consumer, leveraging Avro for data serialization/deserialization. Data is ingested into MongoDB, and an API is created for interaction with the stored data.
+This project aims to develop a Python-based application for processing logistics data using Confluent, Kafka, MongoDB and Docker. The application consists of a Kafka producer and consumer, leveraging Avro for data serialization/deserialization. Data is ingested into MongoDB, and an API is created for interaction with the stored data.
 
 ## Table of Contents
 
