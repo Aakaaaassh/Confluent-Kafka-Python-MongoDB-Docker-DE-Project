@@ -10,7 +10,7 @@ import re
 app = Flask(__name__)
 
 # MongoDB configuration
-mongo_client = MongoClient('mongodb+srv://Aakaaaassh:Akash1234@projectzero.e4ptdtp.mongodb.net/')
+mongo_client = MongoClient('mongodb+srv://user:pass@projectzero.e4ptdtp.mongodb.net/')
 db = mongo_client['gds_db']
 collection = db['logistic_data']
 
