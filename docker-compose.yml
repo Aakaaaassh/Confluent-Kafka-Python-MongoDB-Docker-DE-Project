@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  consumer:
+    image: consumer_image
+    environment:
+      - KAFKA_BOOTSTRAP_SERVERS=pkc-l7pr2.ap-south-1.aws.confluent.cloud:9092
+      - KAFKA_SASL_MECHANISMS=PLAIN
+      - KAFKA_SECURITY_PROTOCOL=SASL_SSL
+      - KAFKA_SASL_USERNAME=7PX7WHEMPYESU6Y5
+      - KAFKA_SASL_PASSWORD=3Gcv3/AUXsIFc+ybLZGPnQllZR95meAm5U8pUCC5nJkV8LbBTvPOAfv4s1xbtb+e
+      - KAFKA_GROUP_ID=group1
+      - KAFKA_AUTO_OFFSET_RESET=earliest
+    command: ["python", "Consumer.py"]
