@@ -85,3 +85,6 @@ Include the following in your submission:
 - Detailed documentation explaining the setup and execution of the application.
 
 Feel free to customize this template according to your specific project details and additional requirements. Congratulations on completing the project!
+
+# License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
